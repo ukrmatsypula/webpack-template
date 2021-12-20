@@ -7,3 +7,5 @@ const user = ["Hello", 27, "Roman"];
 [hi, , userName] = user;
 
 console.log(hi, userName);
+
+(x, z) => z * x;
