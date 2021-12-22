@@ -1,0 +1,10 @@
+:root {
+  background-color: lightblue;
+  font-size: 44px;
+}
+
+body {
+  & > div {
+    color: red;
+  }
+}
