@@ -1,6 +1,16 @@
 :root {
   font-size: 22px;
-  background-color: lightblue;
   color: brown;
 }
+
+:root {
+  background-color: lightblue;
+  font-size: 44px; }
+
+.page + h1 {
+  color: blue; }
+
+body .page h1 {
+  font-size: 100px;
+  color: yellow; }
 

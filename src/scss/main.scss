@@ -3,8 +3,17 @@
   font-size: 44px;
 }
 
+.page {
+  & + h1 {
+    color: blue;
+  }
+}
+
 body {
-  & > div {
-    color: red;
+  .page {
+    h1 {
+      font-size: 100px;
+      color: yellow;
+    }
   }
 }
